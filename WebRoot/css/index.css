@@ -1,0 +1,148 @@
+/*首页*/
+/*包裹器*/
+.wrap{}
+/*顶部面板*/
+.header{height: 40px;background: #666666;}
+.header nav{margin: 0 20px;}
+.header nav ul li{float:right;font-size: x-large;color:white;padding-left:20px;}
+.header nav ul li a:link{color:#ffffff;}
+.header nav ul li a:active{color:#ffffff;}
+.header nav ul li a:visited{color:#ffffff;}
+.header nav ul li a:hover{color:red;}
+.header nav ul li:first-child{float:left;padding-left:2px;}
+/*中间内容*/
+.content{background-image: url("../img/dlam.jpg");height:508px;}
+.content .form{padding-top: 200px;text-align:center;}
+.content .form .form-tip{position:absolute;left:296px;top:200px;font-size:30px;}
+.content .form input{height:50px;}
+.content .form input[type="text"]{width: 700px;font-size:42px;}
+/*底部*/
+.footer{text-align: center;background: #666666;}
+.footer ul{width:1200px;margin:0 auto}
+.footer ul li{padding:20px 0 20px 0;}
+.footer ul li a{text-decoration:none;color:black;}
+.footer ul li a:hover{text-decoration:none;color:blue;}
+
+/*新书推荐*/
+.content .list{padding-left:50px;padding-top:10px;font-size:18px;}
+.content .list table tr th{text-align:left}
+.content .list table tr th:nth-child(1){width:400px;}
+.content .list table tr th:nth-child(2){width:200px;}
+.content .list table tr th:nth-child(3){width:330px;}
+.content .list table tr th:nth-child(4){width:110px;}
+.content .list table tr th:nth-child(5){width:70px;}
+.content .list table tr th:nth-child(6){width:170px;}
+.content .list .fixdown a{color:#096acd;}
+
+/*馆内通知*/
+.content .list_info{padding-top:20px;padding-left:100px;font-size:20px;}
+.content .list_info ul{list-style-image: url(../img/inform.jpg);}
+.content .list_info ul li div{float:right;}
+.content .list_info ul li{width:1100px;}
+
+/*读者反馈*/
+.content .form_feed{padding:20px 60px;}
+.content .form_feed .form-tip{font-size:30px;}
+.content .form_feed form{font-size:25px;}
+.content .form_feed form input{margin: 10px 0;}
+input[type="submit"],input[type="reset"]{background-color: #333;border: none;color: white;padding: 7px 15px;
+    text-decoration: none;cursor:pointer;font-size: 16px;height:35px;border-radius: 8px;outline: none}
+input[type="text"],input[type="password"],textarea{border-radius:5px;}
+
+/*图书管理登录页面*/
+.content .form_admin{text-align: center;font-size:20px;padding-top: 170px;}
+.content .form_admin .form-tip{color:red;}
+.content .form_admin form input{margin:3px;}
+
+/*admin页面*/
+.header nav ul li.bigtext a{font-size:20px;}
+.admin_show{position:absolute;top:250px;left:500px;font-size:50px;font-family: 迷你简隶变;}
+
+/*addBook页面*/
+.content .a2book{position:absolute;top:50px;left:300px;}
+.content .a2book form fieldset{border:1px dashed black;width:660px;margin:0 auto;text-align:right;font-size:22px;}
+.content .a2book form fieldset legend{text-align:center;}
+.content .a2book form fieldset p{margin:10px;}
+.content .a2book form fieldset p label input{padding:3px;width:500px;}
+.content .a2book form fieldset .center{text-align:center;margin:20px;}
+.content .a2book form fieldset .center input{margin-left:20px;}
+.content .a2book .fixdown a{color:#096acd;}
+
+/*showAllBook页面*/
+.content .sa2book{position:absolute;top:50px;left:200px;font-size:15px;}
+.content .sa2book table tr th{text-align:left}
+.content .sa2book table tr th:nth-child(1){width:310px;}
+.content .sa2book table tr th:nth-child(2){width:200px;}
+.content .sa2book table tr th:nth-child(3){width:240px;}
+.content .sa2book table tr th:nth-child(4){width:80px;}
+.content .sa2book table tr th:nth-child(5){width:50px;}
+.content .sa2book table tr th:nth-child(6){width:130px;}
+.content .sa2book table tr td:nth-child(7),
+.content .sa2book table tr td:nth-child(8){text-align:center;}
+.content .sa2book table tr a{color:#096acd;}
+.content .sa2book .fixdown a{color:#096acd;}
+
+/*showBook页面*/
+.content .s2book{position:absolute;top:50px;left:200px;font-size:15px;}
+.content .s2book .search{margin-bottom: 20px;margin-left: 200px;}
+.content .search form label input[type="text"]{width:500px;}
+.content .s2book table tr th{text-align:left}
+.content .s2book table tr th:nth-child(1){width:310px;}
+.content .s2book table tr th:nth-child(2){width:200px;}
+.content .s2book table tr th:nth-child(3){width:240px;}
+.content .s2book table tr th:nth-child(4){width:80px;}
+.content .s2book table tr th:nth-child(5){width:50px;}
+.content .s2book table tr th:nth-child(6){width:130px;}
+.content .s2book table tr td:nth-child(7),
+.content .s2book table tr td:nth-child(8){text-align:center;}
+.content .s2book a{color:#096acd}
+
+/*addInform页面*/
+.content .a_inform{position:absolute;top:50px;left:173px;}
+.content .a_inform form{font-size:20px;}
+.content .a_inform form label{margin-left:10px;}
+.content .a_inform form label input{margin:10px;width:800px;}
+.content .a_inform form div{margin-left:10px;}
+.content .a_inform form input[type="reset"]{margin-left:780px;margin-top:10px;}
+.content .a_inform form input[type="submit"]{margin-left:20px;margin-top:10px;}
+
+/*showInform页面*/
+.content .s_inform{position:absolute;top:50px;left:245px;font-size:20px;}
+.content .s_inform ul{list-style-image: url(../img/inform.jpg);}
+.content .s_inform a{color:#096acd}
+.content .s_inform ul li div{float:right;margin-left:10px;}
+.content .s_inform ul li{width:1000px;}
+
+/*showFB页面*/
+.content .s_fb{position:absolute;top:50px;left:245px;font-size:20px;}
+.content .s_fb a{color:#096acd}
+.content .s_fb ul li div{float:right;margin-left:15px;}
+.content .s_fb ul li{width:1000px;}
+
+/*FBText页面*/
+.content .FBText{position:absolute;top:50px;left:245px;}
+.content .FBText .title{font-size:20px;}
+.content .FBText .body{font-size:15px;}
+
+/*updateAccount页面*/
+.content .upAccount{position:absolute;top:50px;left:400px;}
+.content .upAccount form fieldset{border:1px dashed black;width:470px;margin:0 auto;text-align:right;font-size:22px;}
+.content .upAccount form fieldset legend{text-align:center;}
+.content .upAccount form fieldset p{margin:10px;}
+.content .upAccount form fieldset p label input{padding:3px;width:320px;}
+.content .upAccount form fieldset .center{text-align:center;margin:20px;}
+.content .upAccount form fieldset .center input{margin-left:20px;}
+
+/*showBookBN页面*/
+.content .s2bookBN{padding-left:50px;padding-top:10px;font-size:18px;}
+.content .s2bookBN .search{margin-bottom: 20px;margin-left: 200px;}
+.content .s2bookBN .search form label input[type="text"]{width:700px;}
+.content .s2bookBN table tr th{text-align:left}
+.content .s2bookBN table tr th:nth-child(1){width:400px;}
+.content .s2bookBN table tr th:nth-child(2){width:200px;}
+.content .s2bookBN table tr th:nth-child(3){width:330px;}
+.content .s2bookBN table tr th:nth-child(4){width:110px;}
+.content .s2bookBN table tr th:nth-child(5){width:70px;}
+.content .s2bookBN table tr th:nth-child(6){width:170px;}
+.content .s2bookBN a{color:#096acd}
+.content .s2bookBN .fixdown a{color:#096acd;}
